@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Office 365 Technical Support Services | Office 365 技术支持服务</title>
+    <title>Office 365 Technical Support Services</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -71,51 +71,85 @@
             text-align: center;
         }
         .language-switch {
-            float: right;
-            margin-top: -50px;
+            margin-top: 20px;
         }
         .language-switch a {
             color: #fff;
             margin-left: 10px;
+            cursor: pointer;
         }
     </style>
+    <script>
+        function switchLanguage(lang) {
+            var elements = document.querySelectorAll('[data-lang]');
+            elements.forEach(function(element) {
+                if (element.dataset.lang === lang) {
+                    element.style.display = 'block';
+                } else {
+                    element.style.display = 'none';
+                }
+            });
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+            switchLanguage('en'); // Set default language to English
+        });
+    </script>
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>Office 365 Technical Support Services | Office 365 技术支持服务</h1>
-            <div class="language-switch">
-                <a href="#en">English</a> | <a href="#zh">中文</a> | <a href="#es">Español</a> | <a href="#fr">Français</a> | <a href="#de">Deutsch</a> | <a href="#ja">日本語</a> | <a href="#ko">한국어</a> | <a href="#ru">Русский</a> | <a href="#pt">Português</a> | <a href="#it">Italiano</a> | <a href="#ar">العربية</a>
-            </div>
+            <h1 data-lang="en">Office 365 Technical Support Services</h1>
+            <h1 data-lang="zh" style="display:none;">Office 365 技术支持服务</h1>
             <ul>
-                <li><a href="#contact">Contact Us | 联系我们</a></li>
-                <li><a href="#services">Services | 服务内容</a></li>
-                <li><a href="#home">Home | 首页</a></li>
+                <li><a href="#contact" data-lang="en">Contact Us</a><a href="#contact" data-lang="zh" style="display:none;">联系我们</a></li>
+                <li><a href="#services" data-lang="en">Services</a><a href="#services" data-lang="zh" style="display:none;">服务内容</a></li>
+                <li><a href="#home" data-lang="en">Home</a><a href="#home" data-lang="zh" style="display:none;">首页</a></li>
             </ul>
         </div>
     </header>
     <section class="showcase" id="home">
         <div class="container">
-            <h1>Professional Office 365 Technical Support | 专业的Office 365 技术支持</h1>
-            <p>We provide technical support for Exchange Online, SharePoint, OneDrive, and Teams.<br>我们提供Exchange Online邮件、SharePoint、OneDrive和Teams的技术支持服务。</p>
+            <h1 data-lang="en">Professional Office 365 Technical Support</h1>
+            <h1 data-lang="zh" style="display:none;">专业的Office 365 技术支持</h1>
+            <p data-lang="en">We provide technical support for Exchange Online, SharePoint, OneDrive, and Teams.</p>
+            <p data-lang="zh" style="display:none;">我们提供Exchange Online邮件、SharePoint、OneDrive和Teams的技术支持服务。</p>
         </div>
     </section>
     <section class="services" id="services">
         <div class="container">
-            <h2>Our Services | 我们的服务</h2>
-            <p>We offer technical support for the following Office 365 services:<br>我们提供以下Office 365服务的技术支持：</p>
+            <h2 data-lang="en">Our Services</h2>
+            <h2 data-lang="zh" style="display:none;">我们的服务</h2>
+            <p data-lang="en">We offer technical support for the following Office 365 services:</p>
+            <p data-lang="zh" style="display:none;">我们提供以下Office 365服务的技术支持：</p>
             <ul>
-                <li>Exchange Online Email | Exchange Online 邮件</li>
+                <li data-lang="en">Exchange Online Email</li>
+                <li data-lang="zh" style="display:none;">Exchange Online 邮件</li>
                 <li>SharePoint</li>
                 <li>OneDrive</li>
                 <li>Teams</li>
             </ul>
-            <p>Rate: $100 per hour<br>收费标准：100美金每小时</p>
-            <p>We provide remote assistance only, no on-site service.<br>我们提供远程协助，不提供上门服务。</p>
+            <p data-lang="en">Rate: $100 per hour</p>
+            <p data-lang="zh" style="display:none;">收费标准：100美金每小时</p>
+            <p data-lang="en">We provide remote assistance only, no on-site service.</p>
+            <p data-lang="zh" style="display:none;">我们提供远程协助，不提供上门服务。</p>
         </div>
     </section>
     <footer id="contact">
-        <p>Contact Us: support@songben.fun<br>联系我们：support@songben.fun</p>
+        <p data-lang="en">Contact Us: support@songben.fun</p>
+        <p data-lang="zh" style="display:none;">联系我们：support@songben.fun</p>
+        <div class="language-switch">
+            <a onclick="switchLanguage('en')">English</a> | 
+            <a onclick="switchLanguage('zh')">中文</a> | 
+            <a onclick="switchLanguage('es')">Español</a> | 
+            <a onclick="switchLanguage('fr')">Français</a> | 
+            <a onclick="switchLanguage('de')">Deutsch</a> | 
+            <a onclick="switchLanguage('ja')">日本語</a> | 
+            <a onclick="switchLanguage('ko')">한국어</a> | 
+            <a onclick="switchLanguage('ru')">Русский</a> | 
+            <a onclick="switchLanguage('pt')">Português</a> | 
+            <a onclick="switchLanguage('it')">Italiano</a> | 
+            <a onclick="switchLanguage('ar')">العربية</a>
+        </div>
     </footer>
 </body>
 </html>
