@@ -68,7 +68,7 @@
         footer {
             padding: 20px;
             margin-top: 20px;
-            color: #000; /* Set footer font color to black */
+            color: #fff; /* Set footer font color to white */
             background-color: #333;
             text-align: center;
         }
@@ -76,7 +76,7 @@
             margin-top: 20px;
         }
         .language-switch a {
-            color: #000; /* Set language switch link color to black */
+            color: #fff; /* Set language switch link color to white */
             margin-left: 10px;
             cursor: pointer;
         }
