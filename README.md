@@ -102,19 +102,10 @@
         <div class="container">
             <h1 data-lang="en">Office 365 Technical Support Services</h1>
             <h1 data-lang="zh" style="display:none;">Office 365 技术支持服务</h1>
-            <h1 data-lang="es" style="display:none;">Servicios de Soporte Técnico de Office 365</h1>
-            <h1 data-lang="fr" style="display:none;">Services de Support Technique Office 365</h1>
-            <h1 data-lang="de" style="display:none;">Office 365 Technischer Support</h1>
-            <h1 data-lang="ja" style="display:none;">Office 365 テクニカルサポートサービス</h1>
-            <h1 data-lang="ko" style="display:none;">Office 365 기술 지원 서비스</h1>
-            <h1 data-lang="ru" style="display:none;">Услуги технической поддержки Office 365</h1>
-            <h1 data-lang="pt" style="display:none;">Serviços de Suporte Técnico do Office 365</h1>
-            <h1 data-lang="it" style="display:none;">Servizi di Supporto Tecnico Office 365</h1>
-            <h1 data-lang="ar" style="display:none;">خدمات الدعم الفني لـ Office 365</h1>
             <ul>
-                <li><a href="#contact" data-lang="en">Contact Us</a><a href="#contact" data-lang="zh" style="display:none;">联系我们</a><a href="#contact" data-lang="es" style="display:none;">Contáctenos</a><a href="#contact" data-lang="fr" style="display:none;">Contactez-nous</a><a href="#contact" data-lang="de" style="display:none;">Kontaktieren Sie uns</a><a href="#contact" data-lang="ja" style="display:none;">お問い合わせ</a><a href="#contact" data-lang="ko" style="display:none;">문의하기</a><a href="#contact" data-lang="ru" style="display:none;">Свяжитесь с нами</a><a href="#contact" data-lang="pt" style="display:none;">Contate-Nos</a><a href="#contact" data-lang="it" style="display:none;">Contattaci</a><a href="#contact" data-lang="ar" style="display:none;">اتصل بنا</a></li>
-                <li><a href="#services" data-lang="en">Services</a><a href="#services" data-lang="zh" style="display:none;">服务内容</a><a href="#services" data-lang="es" style="display:none;">Servicios</a><a href="#services" data-lang="fr" style="display:none;">Services</a><a href="#services" data-lang="de" style="display:none;">Dienstleistungen</a><a href="#services" data-lang="ja" style="display:none;">サービス</a><a href="#services" data-lang="ko" style="display:none;">서비스</a><a href="#services" data-lang="ru" style="display:none;">Услуги</a><a href="#services" data-lang="pt" style="display:none;">Serviços</a><a href="#services" data-lang="it" style="display:none;">Servizi</a><a href="#services" data-lang="ar" style="display:none;">خدمات</a></li>
-                <li><a href="#home" data-lang="en">Home</a><a href="#home" data-lang="zh" style="display:none;">首页</a><a href="#home" data-lang="es" style="display:none;">Inicio</a><a href="#home" data-lang="fr" style="display:none;">Accueil</a><a href="#home" data-lang="de" style="display:none;">Startseite</a><a href="#home" data-lang="ja" style="display:none;">ホーム</a><a href="#home" data-lang="ko" style="display:none;">홈</a><a href="#home" data-lang="ru" style="display:none;">Главная</a><a href="#home" data-lang="pt" style="display:none;">Início</a><a href="#home" data-lang="it" style="display:none;">Home</a><a href="#home" data-lang="ar" style="display:none;">الصفحة الرئيسية</a></li>
+                <li><a href="#contact" data-lang="en">Contact Us</a><a href="#contact" data-lang="zh" style="display:none;">联系我们</a></li>
+                <li><a href="#services" data-lang="en">Services</a><a href="#services" data-lang="zh" style="display:none;">服务内容</a></li>
+                <li><a href="#home" data-lang="en">Home</a><a href="#home" data-lang="zh" style="display:none;">首页</a></li>
             </ul>
         </div>
     </header>
@@ -122,15 +113,45 @@
         <div class="container">
             <h1 data-lang="en">Professional Office 365 Technical Support</h1>
             <h1 data-lang="zh" style="display:none;">专业的Office 365 技术支持</h1>
-            <h1 data-lang="es" style="display:none;">Soporte Técnico Profesional de Office 365</h1>
-            <h1 data-lang="fr" style="display:none;">Support Technique Professionnel Office 365</h1>
-            <h1 data-lang="de" style="display:none;">Professioneller Office 365 Technischer Support</h1>
-            <h1 data-lang="ja" style="display:none;">プロフェッショナルなOffice 365テクニカルサポート</h1>
-            <h1 data-lang="ko" style="display:none;">전문 Office 365 기술 지원</h1>
-            <h1 data-lang="ru" style="display:none;">Профессиональная техническая поддержка Office 365</h1>
-            <h1 data-lang="pt" style="display:none;">Suporte Técnico Profissional do Office 365</h1>
-            <h1 data-lang="it" style="display:none;">Supporto Tecnico Professionale Office 365</h1>
-            <h1 data-lang="ar" style="display:none;">الدعم الفني الاحترافي لـ Office 365</h1>
             <p data-lang="en">We provide technical support for Exchange Online, SharePoint, OneDrive, and Teams.</p>
             <p data-lang="zh" style="display:none;">我们提供Exchange Online邮件、SharePoint、OneDrive和Teams的技术支持服务。</p>
-            <p data-lang="es" style="display:none;">
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="container">
+            <h2 data-lang="en">Our Services</h2>
+            <h2 data-lang="zh" style="display:none;">我们的服务</h2>
+            <p data-lang="en">We offer technical support for the following Office 365 services:</p>
+            <p data-lang="zh" style="display:none;">我们提供以下Office 365服务的技术支持：</p>
+            <ul>
+                <li data-lang="en">Exchange Online Email</li>
+                <li data-lang="zh" style="display:none;">Exchange Online 邮件</li>
+                <li>SharePoint</li>
+                <li>OneDrive</li>
+                <li>Teams</li>
+            </ul>
+            <p data-lang="en">Rate: $100 per hour</p>
+            <p data-lang="zh" style="display:none;">收费标准：100美金每小时</p>
+            <p data-lang="en">We provide remote assistance only, no on-site service.</p>
+            <p data-lang="zh" style="display:none;">我们提供远程协助，不提供上门服务。</p>
+        </div>
+    </section>
+    <footer id="contact">
+        <p data-lang="en">Contact Us: support@songben.fun</p>
+        <p data-lang="zh" style="display:none;">联系我们：support@songben.fun</p>
+        <div class="language-switch">
+            <a onclick="switchLanguage('en')">English</a> | 
+            <a onclick="switchLanguage('zh')">中文</a> | 
+            <a onclick="switchLanguage('es')">Español</a> | 
+            <a onclick="switchLanguage('fr')">Français</a> | 
+            <a onclick="switchLanguage('de')">Deutsch</a> | 
+            <a onclick="switchLanguage('ja')">日本語</a> | 
+            <a onclick="switchLanguage('ko')">한국어</a> | 
+            <a onclick="switchLanguage('ru')">Русский</a> | 
+            <a onclick="switchLanguage('pt')">Português</a> | 
+            <a onclick="switchLanguage('it')">Italiano</a> | 
+            <a onclick="switchLanguage('ar')">العربية</a>
+        </div>
+    </footer>
+</body>
+</html>
