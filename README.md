@@ -9,7 +9,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-image: url('./docs/assets/images/background.jpg'); /* 添加背景图片 */
+            background-image: url('/background.jpg'); /* 添加背景图片 */
             background-size: cover; /* 使背景图片覆盖整个页面 */
             background-repeat: no-repeat; /* 防止背景图片重复 */
             background-attachment: fixed; /* 使背景图片固定 */
@@ -171,3 +171,19 @@
             <p data-lang="zh" style="display:none;">“强烈推荐他们的服务。团队知识渊博，反应迅速。” - 客户B</p>
             <p data-lang="en">"Their expertise in Office 365 is unparalleled. They helped us streamline our processes and improve productivity." - Client C</p>
             <p data-lang="zh" style="display:none;">“
+<div class="language-switch">
+            <a onclick="switchLanguage('en')">English</a> | 
+            <a onclick="switchLanguage('zh')">中文</a> | 
+            <a onclick="switchLanguage('es')">Español</a> | 
+            <a onclick="switchLanguage('fr')">Français</a> | 
+            <a onclick="switchLanguage('de')">Deutsch</a> | 
+            <a onclick="switchLanguage('ja')">日本語</a> | 
+            <a onclick="switchLanguage('ko')">한국어</a> | 
+            <a onclick="switchLanguage('ru')">Русский</a> | 
+            <a onclick="switchLanguage('pt')">Português</a> | 
+            <a onclick="switchLanguage('it')">Italiano</a> | 
+            <a onclick="switchLanguage('ar')">العربية</a>
+        </div>
+    </footer>
+</body>
+</html>
