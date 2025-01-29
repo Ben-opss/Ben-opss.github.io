@@ -9,7 +9,10 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-image: url('/background.jpg'); /* 添加背景图片 */
+            background-size: cover; /* 使背景图片覆盖整个页面 */
+            background-repeat: no-repeat; /* 防止背景图片重复 */
+            background-attachment: fixed; /* 使背景图片固定 */
             color: #000; /* Set default font color to black */
         }
         .container {
