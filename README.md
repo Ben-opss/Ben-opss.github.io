@@ -184,6 +184,3 @@
             <a onclick="switchLanguage('it')">Italiano</a> | 
             <a onclick="switchLanguage('ar')">العربية</a>
         </div>
-    </footer>
-</body>
-</html>
