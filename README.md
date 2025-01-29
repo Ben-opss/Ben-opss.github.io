@@ -9,7 +9,7 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-image: url('/background.jpg'); /* 添加背景图片 */
+            background-image: url('./docs/assets/images/background.jpg'); /* 添加背景图片 */
             background-size: cover; /* 使背景图片覆盖整个页面 */
             background-repeat: no-repeat; /* 防止背景图片重复 */
             background-attachment: fixed; /* 使背景图片固定 */
@@ -68,6 +68,18 @@
         .services p {
             font-size: 18px;
         }
+        .about, .testimonials {
+            padding: 20px;
+            background: #fff; /* White background */
+            text-align: center;
+            color: #000; /* Set font color to black */
+        }
+        .about h2, .testimonials h2 {
+            margin-bottom: 20px;
+        }
+        .about p, .testimonials p {
+            font-size: 18px;
+        }
         footer {
             padding: 20px;
             margin-top: 20px;
@@ -109,6 +121,8 @@
                 <li><a href="#contact" data-lang="en">Contact Us</a><a href="#contact" data-lang="zh" style="display:none;">联系我们</a></li>
                 <li><a href="#services" data-lang="en">Services</a><a href="#services" data-lang="zh" style="display:none;">服务内容</a></li>
                 <li><a href="#home" data-lang="en">Home</a><a href="#home" data-lang="zh" style="display:none;">首页</a></li>
+                <li><a href="#about" data-lang="en">About Us</a><a href="#about" data-lang="zh" style="display:none;">关于我们</a></li>
+                <li><a href="#testimonials" data-lang="en">Testimonials</a><a href="#testimonials" data-lang="zh" style="display:none;">客户评价</a></li>
             </ul>
         </div>
     </header>
@@ -139,22 +153,21 @@
             <p data-lang="zh" style="display:none;">我们提供远程协助，不提供上门服务。</p>
         </div>
     </section>
-    <footer id="contact">
-        <p data-lang="en">Contact Us: support@songben.fun</p>
-        <p data-lang="zh" style="display:none;">联系我们：support@songben.fun</p>
-        <div class="language-switch">
-            <a onclick="switchLanguage('en')">English</a> | 
-            <a onclick="switchLanguage('zh')">中文</a> | 
-            <a onclick="switchLanguage('es')">Español</a> | 
-            <a onclick="switchLanguage('fr')">Français</a> | 
-            <a onclick="switchLanguage('de')">Deutsch</a> | 
-            <a onclick="switchLanguage('ja')">日本語</a> | 
-            <a onclick="switchLanguage('ko')">한국어</a> | 
-            <a onclick="switchLanguage('ru')">Русский</a> | 
-            <a onclick="switchLanguage('pt')">Português</a> | 
-            <a onclick="switchLanguage('it')">Italiano</a> | 
-            <a onclick="switchLanguage('ar')">العربية</a>
+    <section class="about" id="about">
+        <div class="container">
+            <h2 data-lang="en">About Us</h2>
+            <h2 data-lang="zh" style="display:none;">关于我们</h2>
+            <p data-lang="en">Our team consists of experienced professionals dedicated to providing top-notch Office 365 technical support. Our company was founded in 2010 with the mission to help businesses optimize their use of Office 365 tools. Over the years, we have grown into a trusted partner for numerous organizations, offering tailored solutions and expert guidance. Our team members are certified experts in various Office 365 applications, ensuring that we can address any technical challenge you may face. We pride ourselves on our commitment to customer satisfaction and our ability to deliver results efficiently and effectively.</p>
+            <p data-lang="zh" style="display:none;">我们的团队由经验丰富的专业人士组成，致力于提供一流的Office 365技术支持服务。公司成立于2010年，使命是帮助企业优化使用Office 365工具。多年来，我们已成长为众多组织的可信赖合作伙伴，提供定制化解决方案和专家指导。我们的团队成员都是各类Office 365应用的认证专家，确保我们能够解决您可能遇到的任何技术挑战。我们以客户满意度为荣，并且能够高效、有效地交付成果。</p>
         </div>
-    </footer>
-</body>
-</html>
+    </section>
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 data-lang="en">Testimonials</h2>
+            <h2 data-lang="zh" style="display:none;">客户评价</h2>
+            <p data-lang="en">"The support we received was outstanding. Our issues were resolved quickly and efficiently." - Client A</p>
+            <p data-lang="zh" style="display:none;">“我们收到的支持非常出色。我们的问题得到了快速有效的解决。” - 客户A</p>
+            <p data-lang="en">"Highly recommend their services. The team is knowledgeable and very responsive." - Client B</p>
+            <p data-lang="zh" style="display:none;">“强烈推荐他们的服务。团队知识渊博，反应迅速。” - 客户B</p>
+            <p data-lang="en">"Their expertise in Office 365 is unparalleled. They helped us streamline our processes and improve productivity." - Client C</p>
+            <p data-lang="zh" style="display:none;">“
